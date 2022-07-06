@@ -6,9 +6,9 @@
 
   <groupId>demo</groupId>
   <artifactId>myapp</artifactId>
-  <version>1.0</version>
+  <version>${BUILD_NUMBER}</version>
 
-  <name>myapp</name>
+  <name>${project.artifactId}-${project.version</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
